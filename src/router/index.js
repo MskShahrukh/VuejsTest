@@ -12,6 +12,11 @@ Vue.use(VModal);
 
 const routes = [
   {
+    path: "*",
+    name: "Login",
+    component: Login
+  },
+  {
     path: "/",
     name: "Home",
     component: Home,
