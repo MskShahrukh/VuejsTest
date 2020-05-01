@@ -13,7 +13,7 @@ Vue.use(VModal);
 const routes = [
   {
     path: "*",
-    name: "Login",
+    name: "404",
     component: Login
   },
   {
